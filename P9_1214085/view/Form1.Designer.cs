@@ -49,8 +49,8 @@
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.tbCariData = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataMahasiswa)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -137,7 +137,6 @@
             this.label6.Size = new System.Drawing.Size(55, 20);
             this.label6.TabIndex = 9;
             this.label6.Text = "No HP";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // email
             // 
@@ -292,6 +291,14 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Form Pencarian";
             // 
+            // tbCariData
+            // 
+            this.tbCariData.Location = new System.Drawing.Point(107, 30);
+            this.tbCariData.Name = "tbCariData";
+            this.tbCariData.Size = new System.Drawing.Size(396, 26);
+            this.tbCariData.TabIndex = 1;
+            this.tbCariData.TextChanged += new System.EventHandler(this.tbCariData_TextChanged);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -300,14 +307,6 @@
             this.label7.Size = new System.Drawing.Size(76, 20);
             this.label7.TabIndex = 0;
             this.label7.Text = "Cari Data";
-            // 
-            // tbCariData
-            // 
-            this.tbCariData.Location = new System.Drawing.Point(107, 30);
-            this.tbCariData.Name = "tbCariData";
-            this.tbCariData.Size = new System.Drawing.Size(396, 26);
-            this.tbCariData.TabIndex = 1;
-            this.tbCariData.TextChanged += new System.EventHandler(this.tbCariData_TextChanged);
             // 
             // Form1
             // 

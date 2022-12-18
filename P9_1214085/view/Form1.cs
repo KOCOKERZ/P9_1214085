@@ -1,5 +1,6 @@
 ﻿using P9_1214085.controller;
 using P9_1214085.model;
+using P9_1214085.view;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,8 @@ namespace P9_1214085
         M_mahasiswa m_mhs = new M_mahasiswa();
         String id;
 
+        public Form2 MdiForm2 { get; internal set; }
+
         public void Tampil()
         {
             //Query DB
@@ -35,11 +38,6 @@ namespace P9_1214085
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
